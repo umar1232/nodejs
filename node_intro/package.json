@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/umar1232/nodejs/issues"
   },
-  "homepage": "https://github.com/umar1232/nodejs#readme"
+  "homepage": "https://github.com/umar1232/nodejs#readme",
+  "devDependencies": {
+    "mocha": "^7.0.1"
+  }
 }
