@@ -17,6 +17,12 @@
   },
   "homepage": "https://github.com/umar1232/nodejs#readme",
   "devDependencies": {
-    "mocha": "^7.0.1"
+    "chai": "^4.2.0",
+    "mocha": "^7.0.1",
+    "superagent": "^5.2.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "http-status": "^1.4.2"
   }
 }
