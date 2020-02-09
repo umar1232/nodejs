@@ -1,0 +1,19 @@
+{
+  "name": "node_intro",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/umar1232/nodejs.git"
+  },
+  "author": "umar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/umar1232/nodejs/issues"
+  },
+  "homepage": "https://github.com/umar1232/nodejs#readme"
+}
