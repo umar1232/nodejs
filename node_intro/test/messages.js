@@ -215,7 +215,7 @@ describe('messages library', function() {
   
 
   /* 1.4 Data validation */
-  /*
+  
   it('messages.create() fails to create messages given data which is missing ' +
      'username and/or text properties.',function(done){
     var emptyMessage = {};
@@ -279,7 +279,7 @@ describe('messages library', function() {
       });
     });
   });
-  */
+  
 
   /* 1.5 Security */
   /*

@@ -3,9 +3,23 @@ const sanitizeHTML = require('sanitize-html');
 const mongoose = require('mongoose');
 //mongoose.connect('mongodb://localhost:27017/');
 
+const messageSchema = new mongoose.Schema(
+    {
+        username:{
+            type:String,
+            required:true        
+        },
+        password:{
+            type:String,
+            required:true        
+        }
+    },
+    {string:'throw'}
+);
+
 const Message = mongoose.model(
     'messages',
-    {username:String, text:String, _id:String}
+    messageSchema
 );
 
 //const newMessage = new Message(
