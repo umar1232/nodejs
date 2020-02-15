@@ -23,7 +23,7 @@ module.exports = function(url,callback){
   return {
     create:function(newMessage,callback){
       //callback();
-
+    
         var message = new Message(newMessage);
         message.save(callback);
     },
@@ -32,16 +32,20 @@ module.exports = function(url,callback){
         Message.findById(id,callback);
     },
     readUsername:function(username,callback){
-      callback();
+      //callback();
+        message.find({username,username},callback);
     },
     readAll:function(callback){
-      callback();
+      //callback();
+        Message.find({}, callback);
     },
     update:function(id,updatedMessage,callback){
-      callback();
+      //callback();
+        Message.findByIdAndUpdate(id, updatedMessage, callback);
     },
     delete:function(id,callback){
-      callback();
+     // callback();
+        Message.findByIdAndRemove(id, callback);
     },
     deleteAll:function(callback){
       Message.remove({},callback);
