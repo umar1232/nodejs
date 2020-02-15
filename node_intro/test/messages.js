@@ -281,7 +281,7 @@ describe('messages library', function() {
   });
   
 
-  /* 1.5 Security */
+  /* step 1.5 Security */
   
   it('messages passed to messages.create() are sanitized to remove dangerous ' +
      'HTML before being stored',function(done){
